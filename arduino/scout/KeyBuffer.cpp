@@ -5,8 +5,6 @@
 #include <CircularBuffer.h>
 #include <Keypad.h>
 
-#define BUFFER_MAX 4
-
 const byte ROWS = 4;
 const byte COLS = 5;
 byte key_indexes[ROWS][COLS] = {
@@ -94,6 +92,10 @@ void KeyBuffer::populate() {
   }
 }
 
+int KeyBuffer::size() {
+  return _buffer.size();
+}
+
 void KeyBuffer::print() {
   if (!_buffer.isEmpty()) {
     Serial.print("[");
@@ -116,3 +118,8 @@ void KeyBuffer::print() {
 char KeyBuffer::getFirst() {
   return _buffer.first();
 }
+
+char KeyBuffer::getNth(int n) {
+  return _buffer[n];
+}
+

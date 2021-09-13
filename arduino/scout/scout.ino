@@ -3,9 +3,7 @@
 #include "Notes.h"
 
 // SETTINGS
-int octave = 3;
-float glide = .25;
-bool glideOnFreshKeyPresses = true;
+int octave = 2;
 bool printToSerial = false;
 
 const int CYCLES_PER_GLIDE_MAX = printToSerial ? 25 : 250;
@@ -15,7 +13,6 @@ const int SPEAKER_PIN = 11;
 
 Notes notes(STARTING_NOTE_DISTANCE_FROM_MIDDLE_A);
 KeyBuffer buffer;
-Frequency frequency(glide, CYCLES_PER_GLIDE_MAX);
 
 void blink(int count = 2, int wait = 200) {
   while (count >= 0) {
@@ -35,24 +32,25 @@ void setup() {
   blink();
 }
 
+int ptr = 0;
+int ctr = 0;
+#define CTR_MAX 40
 void loop() {
   buffer.populate();
 
-  if (printToSerial) {
-    frequency.print();
-  }
-
   if (buffer.isEmpty()) {
-    if (!glideOnFreshKeyPresses) {
-      frequency.reset();
-    }
-
     noTone(SPEAKER_PIN);
     digitalWrite(LED_BUILTIN, LOW);
   } else {
-    frequency.update(notes.get(buffer.getFirst()) / 4 * pow(2, octave));
-
-    tone(SPEAKER_PIN, frequency.get());
+    if (ptr > buffer.size()-1) {
+      ptr = 0;
+    }
+    float f = notes.get(buffer.getNth(ptr));
+    tone(SPEAKER_PIN, f);
     digitalWrite(LED_BUILTIN, HIGH);
+    if (++ctr > CTR_MAX) {
+      ptr++;
+      ctr = 0;
+    }
   }
 }

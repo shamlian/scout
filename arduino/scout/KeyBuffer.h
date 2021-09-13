@@ -7,16 +7,20 @@
 
 #include "Arduino.h"
 
+#define BUFFER_MAX 6
+
 class KeyBuffer {
   public:
     KeyBuffer();
     bool isEmpty();
     char getFirst();
+    char getNth(int n);
     void print();
     void printBuffer();
     void populate();
+    int  size();
   private:
-    CircularBuffer<int, 4> _buffer;
+    CircularBuffer<int, BUFFER_MAX> _buffer;
     bool isInBuffer(int c);
     bool removeFromBuffer(int c);
 };
