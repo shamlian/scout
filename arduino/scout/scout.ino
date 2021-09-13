@@ -1,13 +1,9 @@
-#include "Frequency.h"
 #include "KeyBuffer.h"
 #include "Notes.h"
 
 // SETTINGS
-int octave = 2;
-bool printToSerial = false;
-
-const int CYCLES_PER_GLIDE_MAX = printToSerial ? 25 : 250;
-const int STARTING_NOTE_DISTANCE_FROM_MIDDLE_A = -9;
+const int octave_offset = 0;
+const int STARTING_NOTE_DISTANCE_FROM_MIDDLE_A = -9 + (octave_offset * 12);
 
 const int SPEAKER_PIN = 11;
 
