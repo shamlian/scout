@@ -30,7 +30,8 @@ void setup() {
 
 int ptr = 0;
 int ctr = 0;
-#define CTR_MAX 40
+const int CTR_MAX = 40;
+
 void loop() {
   buffer.populate();
 
