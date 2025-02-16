@@ -1,0 +1,2575 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "365dbeea-a7bc-4a02-b13c-574f19eaaf5b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 86.36 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13506fc8-cd97-4f72-b223-411b447109df")
+	)
+	(junction
+		(at 158.75 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15b1526c-52b6-4d9b-8698-ea85ca29031e")
+	)
+	(junction
+		(at 177.8 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b6413c9-a06a-4d92-a339-14638fc72445")
+	)
+	(junction
+		(at 124.46 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2019f117-f94d-4012-8834-a8bdc4438576")
+	)
+	(junction
+		(at 86.36 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2236f1fb-357f-4ab7-be4d-cc7f48e4226c")
+	)
+	(junction
+		(at 143.51 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2645ecea-f920-437b-a903-e7ba09230996")
+	)
+	(junction
+		(at 162.56 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5465b839-84f1-4345-8fbf-613dbea41973")
+	)
+	(junction
+		(at 177.8 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b423414-c8af-4591-b236-c359d99ccfcd")
+	)
+	(junction
+		(at 139.7 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bfcb626-16f0-47e9-86b6-2f7d9030d414")
+	)
+	(junction
+		(at 124.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "738bc254-4535-4d0d-8da2-aa47ac373e7d")
+	)
+	(junction
+		(at 143.51 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "743c8a6f-ca57-48ff-84a4-ccc6425552a1")
+	)
+	(junction
+		(at 124.46 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75544fe4-a97c-478d-8cde-80ba16c4a34c")
+	)
+	(junction
+		(at 86.36 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87bf6914-3e38-4c08-96db-33468ccc4e1d")
+	)
+	(junction
+		(at 158.75 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cdefa80-3e0a-4874-aff2-b9ee6dbaa2b6")
+	)
+	(junction
+		(at 105.41 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "996d17ce-cac1-4920-ad65-ece9ff2a0c37")
+	)
+	(junction
+		(at 177.8 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ee780a0-8558-4b94-b565-601f0c5eb63c")
+	)
+	(junction
+		(at 120.65 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1e06d04-78f0-4001-acc0-03c77fbf1767")
+	)
+	(junction
+		(at 177.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4c75190-cc99-4a07-a12d-61fce66ef65c")
+	)
+	(junction
+		(at 162.56 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac868c51-2841-4cab-8fc9-42f197d70fd4")
+	)
+	(junction
+		(at 120.65 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c613a002-88f7-4811-8bd7-505e326bd2c5")
+	)
+	(junction
+		(at 162.56 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2b681e4-281b-49d2-99ec-92ea3c2a7e62")
+	)
+	(junction
+		(at 143.51 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3751b91-14f2-4bb5-9352-c52dfac46827")
+	)
+	(junction
+		(at 139.7 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6846a22-dfbe-4b29-8505-919fe0eb196b")
+	)
+	(junction
+		(at 105.41 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e794b37c-b1da-4ea4-8052-4ddccb6722a1")
+	)
+	(junction
+		(at 120.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eff06b88-5f50-4ee3-9ff5-409ae75a7309")
+	)
+	(junction
+		(at 158.75 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f25dcee6-88b0-4427-a76c-2c758b358b6a")
+	)
+	(junction
+		(at 139.7 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f364db51-f9b8-4bed-90c0-4462d9f85bee")
+	)
+	(junction
+		(at 105.41 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f604c414-ce6a-4fce-97aa-3b48a83ae005")
+	)
+	(junction
+		(at 120.65 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f99832f8-23e6-4b7c-a6ef-d49c32d98308")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0459f418-f427-4155-8048-f3e3e62f0081")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e8e9b0-3650-4a78-bdb9-ef6f2bf685ba")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057a5435-522f-49ee-b8d8-cf454f64dd17")
+	)
+	(wire
+		(pts
+			(xy 158.75 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba324c7-80e6-434d-8abb-6fbd2242837a")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e99757-2fce-4534-81e0-63a7a6dc1a64")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 177.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f4ac2a-1c26-4716-9223-c8abb8ac887a")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13314a52-2019-4a3b-9fbe-0c427804b60f")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14024d90-b91b-497e-a727-bd351307a107")
+	)
+	(wire
+		(pts
+			(xy 118.11 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141c1f09-e250-4469-a3b8-08ce4c81edb7")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b21ed1-c402-4dc0-b5b2-d936d4be3981")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae512af-6861-4d42-b422-4ace3136a3c5")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8fbdbd-2fca-492b-b36c-c14a79443a45")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2148a948-d7a3-44c3-bceb-4fbb24e3ff25")
+	)
+	(wire
+		(pts
+			(xy 177.8 97.79) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216127e7-3bc6-4d0d-bde7-7215f71cec14")
+	)
+	(wire
+		(pts
+			(xy 167.64 120.65) (xy 162.56 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b748a3-cab4-46d1-b911-df2c963d0f5e")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.68) (xy 143.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231a20ce-ea2a-4872-bf5d-1063f039407f")
+	)
+	(wire
+		(pts
+			(xy 139.7 97.79) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23aeccb8-a09f-4e5d-bf39-bcb0dea84b5e")
+	)
+	(wire
+		(pts
+			(xy 143.51 120.65) (xy 143.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324c499b-f457-4351-8740-92c45446a1d8")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a7c8cd-7ebe-4672-bce8-dad0be0a21e0")
+	)
+	(wire
+		(pts
+			(xy 177.8 97.79) (xy 182.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b0792e-4b36-468d-aca9-decc2d2d3ff1")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 86.36 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cda373-bf86-43d6-9573-9ea01ab89590")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 182.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ada2b8-f511-4684-b733-dd2266993c60")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f689a53-738d-4b41-9226-3a4ebb6e06bc")
+	)
+	(wire
+		(pts
+			(xy 158.75 97.79) (xy 177.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c821cf-78a2-46c0-9bda-408e9c4c312d")
+	)
+	(wire
+		(pts
+			(xy 162.56 120.65) (xy 162.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b29eaf8-a6f8-4910-a157-f3fe93958a75")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c55e611-0d69-40a5-b86d-75fc84dba629")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d02849e-7253-4ac3-a28b-a98ff519e3c2")
+	)
+	(wire
+		(pts
+			(xy 143.51 106.68) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db7701e-5922-4d52-861f-16710e6f618c")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb61ca6-6675-46cc-a1c4-2b4bb47fe73a")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0b3d5a-6674-4729-8e22-df4f80a38cfd")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612ce9ad-7b64-4e37-b370-9afdc4be2534")
+	)
+	(wire
+		(pts
+			(xy 120.65 106.68) (xy 118.11 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6179a47b-3d94-409d-9ef9-87a3e8be2cbc")
+	)
+	(wire
+		(pts
+			(xy 139.7 97.79) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64486d8a-eac2-4c15-a022-265f1cb1c0e5")
+	)
+	(wire
+		(pts
+			(xy 105.41 106.68) (xy 105.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d7af19-80ba-44dc-9ae7-0b05dc6f6ac2")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a95bbc3-11f9-4901-b656-623ea1e23d19")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9e05d4-8022-481c-87c0-ac063346a569")
+	)
+	(wire
+		(pts
+			(xy 105.41 81.28) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b27f4b4-2b4d-4484-b1c8-dafc8e52dadc")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0f6f78-2ee0-4f3d-bbba-354b1645e72c")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7068b9ea-62c5-4af7-beb9-6fa4ac3d96cf")
+	)
+	(wire
+		(pts
+			(xy 182.88 85.09) (xy 177.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727d4a8c-9ba6-44b1-b2e3-25ee174b6bf2")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c2e22b-2e2b-46de-8069-2690b6ac16ce")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a36ae8d-e483-4ec0-992a-9c91591b1607")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0c8258-a049-40ca-8551-57a7eba075fb")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "806dcdab-dcef-4c7c-b6cf-900c1eca6568")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80da09ab-e104-4d71-b73f-9442681cd6e7")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c61ec1-e9c0-4d60-89e7-58232f9f2733")
+	)
+	(wire
+		(pts
+			(xy 139.7 72.39) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d6500a-555f-4853-a48f-a206943e742b")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8454e061-1a67-4845-b184-e2944cb07493")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 120.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d8dd45-3a4a-49e6-8898-cac739340f62")
+	)
+	(wire
+		(pts
+			(xy 105.41 120.65) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977be65b-f776-4a9a-81f1-5209f656eb63")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ff2467-2af0-48f9-b8d4-85171cd79d76")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999d9585-8c43-4940-88fe-29552949c3cd")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b183c0-b3cf-4f8a-815f-0c5828fec740")
+	)
+	(wire
+		(pts
+			(xy 146.05 81.28) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b005c1c-1bad-43ed-888c-ab616f240942")
+	)
+	(wire
+		(pts
+			(xy 177.8 106.68) (xy 175.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2a0e7a-fa6d-4bc6-ae39-aac4b8384eb5")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9691de-f20f-49de-b37e-e8dfa7e06cc9")
+	)
+	(wire
+		(pts
+			(xy 107.95 106.68) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c75493-26bf-43e3-b243-90bceb711eae")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d2e567-ed00-4db0-bb82-7f5d57d9249d")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e9d094-45c6-4f5d-b0b1-774bbe8bc9d2")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52b25f8-fdff-4839-a560-06c09a5219cc")
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dd55e3-ce56-41bb-96d5-f016ec8139d4")
+	)
+	(wire
+		(pts
+			(xy 107.95 120.65) (xy 105.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7059a45-9bea-4a83-b980-848d8ab82c7d")
+	)
+	(wire
+		(pts
+			(xy 101.6 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1dd735-165f-4530-8fde-68e79f316bcf")
+	)
+	(wire
+		(pts
+			(xy 156.21 93.98) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2090bac-703f-4e0e-b7db-aa761790ae65")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b209e361-a6f8-4d44-b032-f631f8373c76")
+	)
+	(wire
+		(pts
+			(xy 101.6 120.65) (xy 101.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a612d2-750d-4bc1-86ab-b2fa2563c746")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b880ddf8-fdc6-4c61-be6a-369c1cd293de")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6a4921-af38-4099-9c93-250c24405b78")
+	)
+	(wire
+		(pts
+			(xy 118.11 93.98) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48ef25b-12c7-4185-87b6-db5b1ed9de7c")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 162.56 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5528482-e69f-46c4-9f63-f2c5a587e9ec")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0395e42-57ec-4b78-a6d5-0673d61fc165")
+	)
+	(wire
+		(pts
+			(xy 120.65 120.65) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15b5780-746e-464d-be9f-a6799de12b05")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d161c88a-5852-443c-b115-e9725498847d")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51b61a1-3964-4655-a5de-6dc129878883")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6db5172-1564-419e-a534-822f09b20975")
+	)
+	(wire
+		(pts
+			(xy 158.75 97.79) (xy 158.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddcd3d32-08bf-448b-b3f3-7c200f6d0693")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7a216c-96db-45cd-a967-9dd2d178ddd4")
+	)
+	(wire
+		(pts
+			(xy 175.26 93.98) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2626947-3054-4819-804f-277e2b5ce546")
+	)
+	(wire
+		(pts
+			(xy 86.36 120.65) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d5b635-03a8-433f-a170-114b9d877e90")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e371fbae-3c5a-4a36-99fd-e014afcd3a16")
+	)
+	(wire
+		(pts
+			(xy 101.6 85.09) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fcf0b7-ee13-458a-9d03-7633f11bd979")
+	)
+	(wire
+		(pts
+			(xy 86.36 120.65) (xy 88.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a0020a-d5bf-4386-8c51-6e63438e3c20")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f8bf87-8b93-4894-84e2-f838e7756666")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6118ebb-defd-4cb7-956b-1de893959a3b")
+	)
+	(wire
+		(pts
+			(xy 143.51 120.65) (xy 148.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea04cdf0-a137-4011-bedd-a7dc4172cfb6")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed82b558-8fd5-495f-afe8-7dc86412be90")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 143.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10f9239-d207-46df-bab6-828884f681fa")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a6cb61-41e7-4703-8c1d-df870fe1521e")
+	)
+	(wire
+		(pts
+			(xy 158.75 106.68) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e63660-65cf-4cd8-ba43-58a17e573c5e")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f604b796-c239-48f5-a2d7-12abda0a508e")
+	)
+	(wire
+		(pts
+			(xy 156.21 81.28) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f653ac6e-c8b9-40ff-8654-83b42f6639fa")
+	)
+	(wire
+		(pts
+			(xy 99.06 120.65) (xy 101.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0098ef-3869-4fb5-bab2-081e7398f10b")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabd1b04-bb00-4be6-a529-861483bbb1c8")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe082068-13e9-41e6-8ce2-9768889cb3af")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 269.24 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20fda570-4dff-41be-b6d7-53fb90fcc639")
+	)
+	(text "2020/07/16"
+		(exclude_from_sim no)
+		(at 207.01 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ab1e357-c2d9-4fc1-8747-56c17cecc16c")
+	)
+	(text "Scout keyboard matrix"
+		(exclude_from_sim no)
+		(at 189.23 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b7ec1de-06de-41a3-a933-45176aa6dd01")
+	)
+	(hierarchical_label "SW1"
+		(shape output)
+		(at 129.54 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "09797c57-753e-40e1-9759-8acfd62c6707")
+	)
+	(hierarchical_label "C5"
+		(shape input)
+		(at 162.56 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0db5d868-e12b-4f03-81f2-6dc83cc96171")
+	)
+	(hierarchical_label "SWC"
+		(shape output)
+		(at 182.88 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "287c1d66-25da-4a21-9564-462d0a056132")
+	)
+	(hierarchical_label "C2"
+		(shape input)
+		(at 105.41 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29b1ecbc-48ea-448b-89bd-d3e8772abe2b")
+	)
+	(hierarchical_label "C3"
+		(shape input)
+		(at 124.46 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "348971a3-db71-417b-8682-55529826f718")
+	)
+	(hierarchical_label "R3"
+		(shape input)
+		(at 182.88 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "811f6c3a-1f24-47d8-8664-85998b8134b0")
+	)
+	(hierarchical_label "R2"
+		(shape input)
+		(at 182.88 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "871f1117-8269-413c-b548-f990c5e88f1f")
+	)
+	(hierarchical_label "R4"
+		(shape input)
+		(at 182.88 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "948560f1-0eaf-4f48-b831-f4a44be5cd86")
+	)
+	(hierarchical_label "SW2"
+		(shape output)
+		(at 148.59 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "a6b4d90d-1770-48f8-bb1a-e6cbee2ea9f3")
+	)
+	(hierarchical_label "R1"
+		(shape input)
+		(at 182.88 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba8bae6f-6a51-458a-b0d5-728a38d9fdcd")
+	)
+	(hierarchical_label "C1"
+		(shape input)
+		(at 86.36 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf028343-4db6-4795-8148-ba713bd4e01c")
+	)
+	(hierarchical_label "SW3"
+		(shape output)
+		(at 167.64 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "d7e47c43-5e05-4c37-82e8-14129d77fc47")
+	)
+	(hierarchical_label "C4"
+		(shape input)
+		(at 143.51 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d80b55d0-ae86-4555-8260-bf2ae387e192")
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 93.98 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006017f202")
+		(property "Reference" "SW2"
+			(at 93.98 75.311 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 93.98 77.6224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1cbcb83-e6b3-44cd-97c0-9aca4dba41c9")
+		)
+		(pin "2"
+			(uuid "9db262d2-f2e4-49cd-bfaf-4d75a3823c5d")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 113.03 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060188b3a")
+		(property "Reference" "SW6"
+			(at 113.03 75.311 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 113.03 77.6224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70d493d1-f0b5-4e68-bdf1-fff17f7b5e2c")
+		)
+		(pin "2"
+			(uuid "3a742ae1-35f4-4f8f-85b5-d31410d64389")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 132.08 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006018a55a")
+		(property "Reference" "SW10"
+			(at 132.08 75.311 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 132.08 77.6224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0ad96c8-0568-4cd4-93bd-97de26fec21e")
+		)
+		(pin "2"
+			(uuid "e3a08e3d-b22b-4461-8320-56e4874c3641")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 151.13 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006018a564")
+		(property "Reference" "SW13"
+			(at 151.13 75.311 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 151.13 77.6224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b39f45e4-4428-41fe-9920-9ac9d088ffb7")
+		)
+		(pin "1"
+			(uuid "de3f5f5e-37a6-41f0-b561-eeb2c7ceaca6")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 170.18 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006018b40b")
+		(property "Reference" "SW16"
+			(at 170.18 75.311 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 170.18 77.6224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e110494-3485-4e33-a9ea-f72d5c84fb0b")
+		)
+		(pin "1"
+			(uuid "5861572b-b91a-4832-bf00-d7cccc5a3c62")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 93.98 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006019d891")
+		(property "Reference" "SW3"
+			(at 93.98 88.011 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 93.98 90.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21de5e67-e867-4c3d-89b6-e228a27778d7")
+		)
+		(pin "2"
+			(uuid "2a86cf59-92d5-444e-aca2-6b5986bebcc3")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 113.03 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006019d899")
+		(property "Reference" "SW7"
+			(at 113.03 88.011 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 113.03 90.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a951c89-485d-4207-996e-d634b0164326")
+		)
+		(pin "2"
+			(uuid "85581f0e-d20c-4e57-8cf0-3fcb3618bddd")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 132.08 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006019d8a1")
+		(property "Reference" "SW11"
+			(at 132.08 88.011 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 132.08 90.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c42cc28-f725-4328-a87a-08c5f97aa37e")
+		)
+		(pin "2"
+			(uuid "2c2dbee8-acdc-477a-a660-37afaa3c24ab")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 151.13 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006019d8a9")
+		(property "Reference" "SW14"
+			(at 151.13 88.011 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 151.13 90.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43f84536-40b8-45d6-84ef-4936f52966d7")
+		)
+		(pin "2"
+			(uuid "12e8b578-45e8-4f79-aec8-63dd467131d5")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 170.18 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006019d8b1")
+		(property "Reference" "SW17"
+			(at 170.18 88.011 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 170.18 90.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e538d830-82c0-4dc4-83d2-6677e93c55d6")
+		)
+		(pin "2"
+			(uuid "78377299-6179-4984-b5e8-261d49925a5e")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 93.98 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601bc6e8")
+		(property "Reference" "SW4"
+			(at 93.98 100.711 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 93.98 103.0224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49aeafe9-a3a2-4dba-b87b-e5a4212a80ed")
+		)
+		(pin "1"
+			(uuid "41991c87-47ec-4675-a56a-506beba58a52")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 113.03 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601bc6ee")
+		(property "Reference" "SW8"
+			(at 113.03 100.711 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 113.03 103.0224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da03b068-df8b-41a3-99af-a0829cc1330f")
+		)
+		(pin "2"
+			(uuid "f65bf9af-8c5b-4d90-aa6a-ba1a848d7ad2")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 132.08 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601bc6f4")
+		(property "Reference" "SW12"
+			(at 132.08 100.711 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 132.08 103.0224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77f16167-3d52-41df-8720-57f7106c8caf")
+		)
+		(pin "2"
+			(uuid "15faf35c-28ce-4029-a6e4-b367e6cffa32")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 151.13 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601bc6fa")
+		(property "Reference" "SW15"
+			(at 151.13 100.711 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 151.13 103.0224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05d1ab71-fa90-48f8-b65f-f32643c95efb")
+		)
+		(pin "1"
+			(uuid "394ddb5b-1087-47b3-aed0-07e2bbed66ce")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 170.18 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601bc700")
+		(property "Reference" "SW18"
+			(at 170.18 100.711 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 170.18 103.0224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c959ed81-ae9d-4706-83d7-6fc733e77bb3")
+		)
+		(pin "1"
+			(uuid "c4095a8f-e45d-43d2-8fe3-bc4979bf9b51")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 93.98 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601c0013")
+		(property "Reference" "SW5"
+			(at 93.98 114.681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 93.98 116.9924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50ed8fc6-a0d7-4b89-bb84-593aaedb20a0")
+		)
+		(pin "2"
+			(uuid "ac83c12a-0c3e-4e10-8b99-e29baab566ba")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 113.03 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601c0019")
+		(property "Reference" "SW9"
+			(at 113.03 114.681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST"
+			(at 113.03 116.9924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c170d7b-4a09-4040-ae6d-34e3b40440e8")
+		)
+		(pin "2"
+			(uuid "176d0c2f-fed5-495f-9bbf-5930f49e7f48")
+		)
+		(instances
+			(project "scout"
+				(path "/39d4586e-fffb-4f44-8579-a48e580ea99d/00000000-0000-0000-0000-000060918984"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
