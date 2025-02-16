@@ -13,7 +13,7 @@ byte key_indexes[ROWS][COLS] = {
   {3, 7, 11, 14, 17},
   {4, 8}
 };
-byte rowPins[ROWS] = {7, 8, 9, 10};
+byte rowPins[ROWS] = {7, 8, 11, 10};
 byte colPins[COLS] = {2, 3, 4, 5, 6};
 
 Keypad _buttons = Keypad(makeKeymap(key_indexes), rowPins, colPins, ROWS, COLS);

@@ -11,7 +11,7 @@ bool printToSerial = false;
 const int CYCLES_PER_GLIDE_MAX = printToSerial ? 25 : 250;
 const int STARTING_NOTE_DISTANCE_FROM_MIDDLE_A = -9;
 
-const int SPEAKER_PIN = 11;
+const int SPEAKER_PIN = 9;
 
 Notes notes(STARTING_NOTE_DISTANCE_FROM_MIDDLE_A);
 KeyBuffer buffer;
